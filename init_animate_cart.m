@@ -3,7 +3,7 @@ function [config] = init_animate_cart(width, height, length)
 %   Detailed explanation goes here
     h = figure();
     
-    bounds = [-10 10 -5 10];
+    bounds = [-20 20 -10 20];
     axis(bounds);
     world = animatedline();
     addpoints(world, bounds(1), 0);
